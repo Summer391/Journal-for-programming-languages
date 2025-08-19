@@ -1,2 +1,37 @@
 import sys
 print(sys.version)
+
+if 5>2:
+    print ("true")
+
+x=3
+y=4
+#z=5
+print(x, y)
+if x>y:
+    print("true")
+else:
+    print("false") #This is a comment at the end of a line
+
+#This is a comment, hiii if you see this!~
+# hi hi hi
+
+"""
+This is a string in the code
+a multiline string as a matter of fact
+"""
+
+x="string"
+print(x)
+#This changes the value of the variable x even after I've declared it and prints its value
+#Which appears to just be a string
+
+a=int(3)
+b=float(3)
+c=str(3)
+print(a, b, c)
+print(type(a), type(b), type(c))
+
+d="hello world"
+f='hi there'
+print(d, f)
